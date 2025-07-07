@@ -9,8 +9,8 @@ public class HelloWorld {
      * @param args command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("Hello, Maven World!");
-        System.out.println("This project was built successfully!");
+        System.out.println("Hello, Maven World - Version 2!");
+        System.out.println("This project builds automatically with Jenkins!");
     }
 
     /**
