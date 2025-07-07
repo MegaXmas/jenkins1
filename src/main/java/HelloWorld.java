@@ -19,6 +19,6 @@ public class HelloWorld {
      * @return a greeting message
      */
     public String greet(String name) {
-        return "Hello, " + name + "!";
+        return "Hello, " + name + ":)";
     }
 }
