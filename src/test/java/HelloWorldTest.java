@@ -11,7 +11,7 @@ public class HelloWorldTest {
     public void testGreet() {
         // Arrange - set up test data
         HelloWorld helloWorld = new HelloWorld();
-        String expectedMessage = "Hello, Maven!";
+        String expectedMessage = "Hello, Maven :)";
 
         // Act - run the method we're testing
         String actualMessage = helloWorld.greet("Maven");
