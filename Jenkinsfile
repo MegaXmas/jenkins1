@@ -61,10 +61,10 @@ pipeline {
     // This section runs after all stages complete
     post {
         success {
-            echo 'Pipeline completed successfully!'
+            echo 'Docker Pipeline completed successfully!'
         }
         failure {
-            echo 'Pipeline failed. Check the logs for details.'
+            echo 'Docker Pipeline failed. Check the logs for details.'
         }
         always {
             echo 'Cleaning up workspace...'
