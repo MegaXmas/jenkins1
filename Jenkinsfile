@@ -3,8 +3,8 @@ pipeline {
 
     // Tools section tells Jenkins which versions to use
     tools {
-        maven '3.9.11'  // Make sure this matches your Maven version
-        jdk '24'       // Make sure this matches your Java version
+        maven 'maven 3.9.11'  // Make sure this matches your Maven version
+        jdk 'jdk-24'       // Make sure this matches your Java version
     }
 
     stages {
